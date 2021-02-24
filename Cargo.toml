@@ -14,8 +14,8 @@ bellperson = { version = "0.13", default-features = false }
 bincode = "1.1.2"
 serde = "1.0.104"
 #filecoin-proofs-v1 = { package = "filecoin-proofs", version = "~6.0.0", default-features = false, features = ["gpu"] }
-filecoin-proofs-v1 = { package = "filecoin-proofs", git = "https://github.com/filecoin-project/rust-fil-proofs", branch = "feat-aggregation", default-features = false, features = ["gpu"] }
 #filecoin-hashers = { version = "~1.0.1", default-features = false, features = ["poseidon", "sha256"] }
+filecoin-proofs-v1 = { package = "filecoin-proofs", git = "https://github.com/filecoin-project/rust-fil-proofs", branch = "feat-aggregation", default-features = false, features = ["gpu"] }
 filecoin-hashers = { git = "https://github.com/filecoin-project/rust-fil-proofs", branch = "feat-aggregation", default-features = false, features = ["poseidon", "sha256"] }
 storage-proofs-core = { git = "https://github.com/filecoin-project/rust-fil-proofs", branch = "feat-aggregation", default-features = false, features = ["gpu"] }
 fr32 = { git = "https://github.com/filecoin-project/rust-fil-proofs", branch = "feat-aggregation", default-features = false, features = ["gpu"] }
