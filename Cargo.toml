@@ -30,4 +30,5 @@ blst = ["filecoin-proofs-v1/blst", "bellperson/blst", "storage-proofs-core/blst"
 paired = { git = "https://github.com/filecoin-project/paired", branch = "ser-de" }
 fff = { git = "https://github.com/filecoin-project/ff", branch = "ser-de" }
 groupy = { git = "https://github.com/filecoin-project/group", branch = "ser-de" }
+blstrs = { git = "https://github.com/filecoin-project/blstrs", branch = "ser-de" }
 bellperson = { git = "https://github.com/filecoin-project/bellman", branch = "feat-ipp2" }
